@@ -32,7 +32,7 @@ import {
 } from "react-icons/fi";
 import ProjectCard from "../components/ProjectCard";
 
-const Project = () => {
+const project = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const [statusFilter, setStatusFilter] = useState("all");
   const toast = useToast();
@@ -334,4 +334,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default project;
