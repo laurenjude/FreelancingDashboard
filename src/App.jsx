@@ -18,10 +18,11 @@ import ProfileOverview from "./components/ProfileOverview";
 import EarningStats from "./components/EarningsStats";
 import ProjectCard from "./components/ProjectCard";
 import FeedbackCard from "./components/FeedbackCard";
-import Project from "./pages/project";
+
 import ClientsPage from "./pages/Clients";
 import Earnings from "./pages/Earnings";
 import Settings from "./pages/Settings";
+import ProjectsPage from "./pages/project";
 
 // Define animations
 const fadeIn = keyframes`
@@ -194,7 +195,7 @@ const App = () => {
             />
             <Route
               path="/projects"
-              element={<Project />}
+              element={<ProjectsPage />}
             />
             <Route
               path="/clients"
