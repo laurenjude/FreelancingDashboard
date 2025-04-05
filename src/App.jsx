@@ -22,7 +22,7 @@ import FeedbackCard from "./components/FeedbackCard";
 import ClientsPage from "./pages/Clients";
 import Earnings from "./pages/Earnings";
 import Settings from "./pages/Settings";
-import ProjectsPage from "./pages/project";
+import Project from "./pages/project";
 
 // Define animations
 const fadeIn = keyframes`
@@ -195,7 +195,7 @@ const App = () => {
             />
             <Route
               path="/projects"
-              element={<ProjectsPage />}
+              element={<Project />}
             />
             <Route
               path="/clients"
